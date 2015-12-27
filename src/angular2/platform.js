@@ -2,6 +2,7 @@
 
 define('angular2/platform', function(require) {
   return {
-    browser: require('./platform/browser')
+    browser: require('./platform/browser'),
+    __esModule: {value: true}
   };
 });
