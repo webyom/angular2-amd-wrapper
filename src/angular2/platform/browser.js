@@ -3,6 +3,6 @@
 define('angular2/platform/browser', function(require) {
   return {
     bootstrap: ng.platform.browser.bootstrap,
-    __esModule: {value: true}
+    __esModule: true
   };
 });
