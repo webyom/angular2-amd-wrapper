@@ -31,7 +31,8 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
+    "angular2-amd-wrapper": "^0.1.42",
     "gulp": "^3.9.0",
-    "angular2-amd-wrapper": "^0.1.42"
+    "through2": "^2.0.0"
   }
 }

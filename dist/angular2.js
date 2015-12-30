@@ -79,3 +79,5 @@ define('angular2/platform/browser', ['require', 'exports', 'module'], function (
     __esModule: true
   };
 });
+
+require.processDefQueue();
