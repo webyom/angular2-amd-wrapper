@@ -17,7 +17,7 @@ gulp.task('bundle', function() {
       var contents = file.contents.toString();
       contents = [
         contents,
-        'require.processDefQueue();'
+        'require.processDefQueue && require.processDefQueue();'
       ].join('\n\n');
       file.contents = new Buffer(contents);
       this.push(file);

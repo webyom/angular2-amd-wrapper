@@ -114,4 +114,4 @@ define('angular2/upgrade', ['require', 'exports', 'module'], function (require) 
   return upgrade;
 });
 
-require.processDefQueue();
+require.processDefQueue && require.processDefQueue();
